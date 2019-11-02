@@ -1,3 +1,4 @@
+#day3 if语句
 username  = input("输入姓名:")
 passwd = input("输入密码:")
 
