@@ -1,8 +1,6 @@
 """
 输入两个正整数计算它们的最大公约数和最小公倍数
 
-Version: 0.1
-Author: 骆昊
 Date: 2018-03-01
 """
 x = int(input('x = '))
@@ -15,4 +13,3 @@ for factor in range(x,1,-1):
         print("%d是%d和%d的最大公约数"%(factor,x,y))
         print('%d和%d的最小公倍数是%d' % (x, y, x * y // factor)) #两个数的乘积=其最大公约数*最小公倍数
         break
-
