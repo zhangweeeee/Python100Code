@@ -9,6 +9,3 @@ for number in range(1,10000000000000):
             sum += factory
     if sum == number:
         print(number)
-
-
-
