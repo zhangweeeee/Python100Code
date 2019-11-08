@@ -29,7 +29,7 @@ def is_prime(num):
             return False
     return True if num != 1 else False
 
-# print(is_prime(1))
+print(is_prime(1))
 
 def foo():
     global a
