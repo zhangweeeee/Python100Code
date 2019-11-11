@@ -1,4 +1,4 @@
-# day7 练习 文字跑马灯
+# day7练习 文字跑马灯
 import os
 import time
 
@@ -16,4 +16,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
