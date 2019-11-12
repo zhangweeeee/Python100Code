@@ -22,6 +22,10 @@ class Person(object):
     def age(self, age):
         self._age = age
 
+    @name.setter
+    def name(self, name):
+        self._name = name
+
     def play(self):
         if self._age <= 16:
             print('%s正在玩飞行棋.' % self._name)
@@ -34,7 +38,7 @@ def main():
     person.play()
     person.age = 22
     person.play()
-    # person.name = '白元芳'  # AttributeError: can't set attribute
+    person.name = '白元芳'  
 
 
 if __name__ == '__main__':
