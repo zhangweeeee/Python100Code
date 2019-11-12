@@ -1,9 +1,9 @@
 def main():
     try:
-        with open('class.py', 'rb', encoding='utf-8') as fs1:
+        with open('class.py', 'rb') as fs1:
             data = fs1.read()
             print(type(data))  # <class 'bytes'>
-        with open('吉多.txt', 'wb', encoding='utf-8') as fs2:
+        with open('吉多.txt', 'wb') as fs2:
             fs2.write(data)
     except FileNotFoundError as e:
         print('指定的文件无法打开.')
