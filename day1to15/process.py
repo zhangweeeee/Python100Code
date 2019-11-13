@@ -1,3 +1,4 @@
+# 多进程
 from multiprocessing import Process
 from os import getpid
 from random import randint
