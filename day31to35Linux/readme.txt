@@ -1,1 +1,1 @@
-Linux
+已学习过Linux
