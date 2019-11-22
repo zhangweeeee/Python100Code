@@ -1,3 +1,4 @@
+# 廖雪峰python 字符串和编码
 import sys
 print(ord('A'))
 print(ord('a'))
