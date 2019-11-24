@@ -1,4 +1,5 @@
 #day7如何定义和使用字典。
+from builtins import staticmethod
 
 scores = {'骆昊': 95, '白元芳': 78, '狄仁杰': 82}
 print(scores)
@@ -18,6 +19,7 @@ scores['诸葛王朗'] = 71
 scores.update(冷面=67, 方启鹤=85)
 print(scores)
 # 删除字典中的元素
+
 print(scores.popitem())
 print(scores.popitem())
 print(scores.pop('骆昊', 100))
