@@ -9,7 +9,7 @@
 import os
 
 print("Process %s start " % os.getppid())
-
+# Only works on Unix/Linux/Mac:
 pid = os.fork()
 
 if pid ==0:
