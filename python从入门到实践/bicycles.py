@@ -19,17 +19,17 @@ print(motorcycles)
 # while i<3:
 #     i = i + 1
 #     product  = input()
-#     Apple.append(product)
+#     Apple.append(product)   #添加
 # print(Apple)
 
-del motorcycles[0]
+del motorcycles[0]  #删除
 print(motorcycles)
 
-pop_motorbicycles = motorcycles.pop();
+pop_motorbicycles = motorcycles.pop()  #弹出
 print(pop_motorbicycles)
 
-motorcycles.sort()
+motorcycles.sort() #永久性改变了列表元素的顺序
 print(motorcycles)
 
 motorcycles = ['honda','yamaha','suzuki']
-print(motorcycles)
+print(sorted(motorcycles))
